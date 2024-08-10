@@ -3,6 +3,19 @@ body {
   box-sizing: border-box;
   margin: 0;
 }
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 550px;
+}
+
 /* Navbar */
 nav {
   height: 50px;
@@ -32,13 +45,13 @@ nav {
 /* Main Content */
 
 main {
-  background: url("./assets/ReactFacts-icon2.png");
+  background: url("./assets/ReactFacts-icon1x.png");
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: right 75%;
   background-color: #282d35;
   color: #ffffff;
-  height: 100vh;
   padding: 57px 27px;
+  height: 100%;
 }
 
 .main-title {
