@@ -32,6 +32,9 @@ nav {
 /* Main Content */
 
 main {
+  background: url("./assets/ReactFacts-icon2.png");
+  background-repeat: no-repeat;
+  background-position: right;
   background-color: #282d35;
   color: #ffffff;
   height: 100vh;
