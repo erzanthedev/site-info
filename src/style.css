@@ -3,7 +3,7 @@ body {
   box-sizing: border-box;
   margin: 0;
 }
-
+/* Navbar */
 nav {
   height: 50px;
   display: flex;
@@ -27,4 +27,35 @@ nav {
 .push-right {
   color: whitesmoke;
   font-size: 20px;
+}
+
+/* Main Content */
+
+main {
+  background-color: #282d35;
+  color: #ffffff;
+  height: 100vh;
+  padding: 57px 27px;
+}
+
+.main-title {
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05px;
+}
+
+.facts-list {
+  margin-top: 40px;
+  max-width: 390px;
+}
+
+.facts-list > li {
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+.facts-list li::marker {
+  color: #61dafb;
+  font-size: 25px;
 }
